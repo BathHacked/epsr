@@ -1,0 +1,27 @@
+{
+  "name": "epr-vis",
+  "authors": [
+    "Mark Owen <mark@bathhacked.org>"
+  ],
+  "description": "Environmental protection service requests dashboard",
+  "main": "",
+  "private": true,
+  "directory": "public/vendor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "dcjs": "2.0.0-beta.1",
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3",
+    "font-awesome": "^4.5.0",
+    "moment": "^2.11.2",
+    "leaflet": "^0.7.7",
+    "leaflet.markercluster": "^0.4.0"
+  }
+}
