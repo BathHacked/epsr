@@ -1,0 +1,96 @@
+
+body {
+  background: #f0f0f0;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px 10px 20px;
+  text-align: left;
+  font-size: 1.5em;
+  position: relative;
+  font-weight: bold;
+}
+
+.header {
+  padding: 30px 0 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.chart-container {
+  margin-bottom: 50px;
+  background-color: #f0f0f7;
+  border: 8px solid rgba(255,255,255,0.8);
+  padding: 10px 10px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  border-radius: 8px;
+}
+
+.dc-chart {
+  max-width: 100%;
+}
+
+.dc-chart g.row text {
+  fill: #333;
+}
+
+.dc-chart .axis path, .axis line {
+  stroke: #888;
+}
+
+.dc-chart .axis text {
+  fill: #888;
+}
+
+.dc-chart .filter {
+  font-size: 13px;
+}
+
+#chart-all {
+  padding: 10px 10px 40px;
+  font-size: 20px;
+}
+
+.dc-table-group {
+  display: none;
+}
+
+#chart-location, .map, .dc-leaflet {
+  width: 100% !important;
+}
+
+#chart-all {
+  text-align: center;
+  width: 100% !important;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+@media (max-height: 640px) {
+  .table-container {
+    max-height: 640px;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+}
+
+table.table {
+  font-size: 12px;
+}
+
+table.table > th {
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 8px;
+}
